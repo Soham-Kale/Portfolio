@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="newBar">
+    <div class="navBar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
@@ -47,18 +47,19 @@
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">"Innovative Computer Science Engineer Enabling Technological Advancements through Creative Solutions and Strategic Programming."</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="newButton" onclick="alert('Resume is not available now')">Download my resume!</button>
+                    <button id="newBtn" class="newButton" onclick="addBtn()">Download my resume!</button>
                 </div>
+                <br><div id="finalBtn"></div>
             </div>
         </div>
     </div> 
 
     <div class="skills">
-        <div class="container px-4 py-5" id="featured-3">
+        <div class="container px-4 py-5 row col-md-15" id="featured-3" style="margin-left: 40px;">
             <h6>My Skills</h6>
             <h2 class="pb-2 ">My Experties</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-                <div class="feature col" style="background-color: #F5FCFF;">
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
                     <div
                         class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg class="bi" width="0.3em" height="0.7em">
@@ -69,7 +70,7 @@
                     <p>Skilled in crafting responsive and visually appealing web interfaces using HTML and CSS. Proficient in designing and
                     implementing modern, user-friendly layouts for seamless online experiences.</p>
                 </div>
-                <div class="feature col" style="background-color: #F5FCFF;">
+                <div class="feature col" style="background-color: #F5FCFF; margin-left: 133px; margin-right: 133px; border-radius: 10px; padding-top: 20px;" >
                     <div
                         class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg class="bi" width="0.3em" height="0.7em">
@@ -80,7 +81,7 @@
                     <p>Proficient in JavaScript to create dynamic and interactive web applications, adept at implementing client-side scripting
                         for enhanced user experiences.</p>
                 </div>
-                <div class="feature col" style="background-color: #F5FCFF;">
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
                     <div
                         class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg class="bi" width="0.3em" height="0.7em">
@@ -91,7 +92,7 @@
                     <p>Skilled in leveraging Bootstrap for efficient and responsive web design, ensuring visually appealing and user-friendly
                         interfaces.</p>
                 </div>
-                <div class="feature col" style="background-color: #F5FCFF;">
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
                     <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg class="bi" width="0.3em" height="0.7em">
                             <img src="./assets/SVG/react-2.svg" height="50px" width="50px"></img>
@@ -101,18 +102,26 @@
                     <p>Experienced in React for building scalable and efficient user interfaces, proficient in developing dynamic web
                         applications with a focus on component-based architecture.</p>
                 </div>
-                <!-- <div class="feature col" style="background-color: #F5FCFF;">
+                <div class="feature col" style="background-color: #F5FCFF; margin-left: 133px; margin-right: 133px; border-radius: 10px; padding-top: 20px;">
                     <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                         <svg class="bi" width="0.3em" height="0.7em">
-                            <img src="./assets/SVG/bootstrap-4.svg" alt="bootStrap" height="50px">
+                            <img src="./assets/SVG/node1.png" alt="bootStrap" height="50px">
                         </svg>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Express.js, Node.js</h3>
-                    <p>The next level down is the Express.js server-side framework, running inside a Node.js server. Express.js bills itself as
-                    a “fast, unopinionated, minimalist web framework for Node.js,” and that is indeed exactly what it is. Express.js has
-                    powerful models for URL routing, and handling HTTP requests and
-                    responses.</p>
-                </div> -->
+                    <h3 class="fs-2 text-body-emphasis">Node.js</h3>
+                    <p>It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as
+                    traditional web sites and back-end API services.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/mongo1.png" alt="bootStrap" height="50px" >
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">MongoDB</h3>
+                    <p>MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing
+                    scalable applications with evolving data schemas.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -120,7 +129,7 @@
     <div class="about">
 
         <div class="image">
-            <img src="./assets/image/soham.jpg" alt="soham" style="margin-left: 25px;">
+            <img src="./assets/image/soham5-removebg-preview.jpg" alt="soham" style="margin-left: 25px;">
         </div>
 
         <div class="info">
@@ -172,8 +181,8 @@
                     <input type="text" name="f_name" class="form-control" id="f_name" placeholder="Enter First Name">
                 </div>
                 <div class="form-group col-md-4 mb-3">
-                    <label for="l_lame">Last Name</label>
-                    <input type="text" name="l_lame" class="form-control" id="l_lame" placeholder="Enter Last Name">
+                    <label for="l_name">Last Name</label>
+                    <input type="text" name="l_name" class="form-control" id="l_name" placeholder="Enter Last Name">
                 </div>
                 <div style="height: 10px;"></div>
                 <div class="form-group col-md-4 mb-3" style="margin-left: 220px;">
@@ -181,8 +190,8 @@
                     <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email">
                 </div>
                 <div class="form-group col-md-4 mb-3">
-                    <label for="address">Phone Number</label>
-                    <input type="text" name="address" class="form-control" id="address" placeholder="Enter Phone Number">
+                    <label for="number">Phone Number</label>
+                    <input type="text" name="number" class="form-control" id="number" placeholder="Enter Phone Number">
                 </div>
                 <div class="mb-3">
                     <div class="edit">
@@ -193,8 +202,10 @@
                     </div>
 
                 <div class="text-center">
-                    <button class="btn btn-primary" id="Submit" onclick="alert('Your response is submitted')">Submit</button>
+                    <button class="btn btn-primary" id="submit" onclick="dataSubmit()">Submit</button> <br><br>
+                    <div id="response"></div>
                 </div>
+                
             </div>
         </div>
     </div>
