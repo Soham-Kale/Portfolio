@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navBar  {
+    padding-top: 5px;
+    width: 100vw;
+}
+.upperMid {
+    margin-left: 0px;
+}
+
+.navbar ul {
+    display:flex;
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    list-style-type: none;
+    justify-content: space-evenly;
+} 
+
+.navColor {
+    color: #5E3BEE;
+}
+
+.navbar ul li a {
+    color: #36C;
+}
+
+.upperMid {
+    background-color: #F5FCFF;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    padding: 133.33px, 85.33px, 133.33px, 85.33px;
+}
+
+.upperMid h1 span {
+    color: #5E3BEE;
+}
+
+.newButton {
+    color: white;
+    background-color: #5E3BEE;
+    width:  200px ;
+    height:  50px;
+    border-radius: 5.33px ;
+}
+
+.about {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.about img {
+    height: 70%;
+    box-shadow: -20px 0px 10px #9B9AF3;
+} 
+
+.image {
+    width: 400px;
+    height: 900px;
+    padding-left: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.about {
+    display: flex;
+}
+
+.info {
+    /* top | right | bottom | left */
+    padding: 190px 0px 0px 100px;
+    margin-left: 120px;
+    width: Hug (400px) ;
+    height: Hug (498.67px) ;
+    gap: 32px
+}
+
+.info p {
+    height: 200px;
+    width: 600px;
+    margin-left: 0px;
+}
+
+.course {
+    margin-left: 50px;
+    padding: 100px 0px 40px 0px;
+}
+
+.course img {
+   height: 90%;
+   width: 90%;
+   padding-left: 20px;
+   margin-left: 100px;
+   box-shadow: -75px 0px 8px #9B9AF3;
+   margin-bottom: 50px;
+}
+
+.education {
+    /* top | right | bottom | left */
+    padding: 100px 0px 90px 100px;
+    background: #F5FCFF;
+    /* margin-top: 50px; */
+}
+
+.info1 {
+    /* top | right | bottom | left */
+    margin-top: 50px;
+    padding: 20px 0px 20px 100px ;
+    background-color: white;
+}
+
+.info1 h6 {
+    color: #1C1E53BF;
+}
+
+.form {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 100px 0px 0px 70px;
+}
+
+.row2 {
+    /* text-align: center; */
+    padding-left: 400px;
+} 
+
+.edit {
+    padding-right: 300px;
+    margin-left: 220px;
+} 

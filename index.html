@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Kale Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/image/soham3.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="navBar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Mob. No.7721027579</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox" style="text-decoration:none">sohamkale3014@gmail.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Soham-Kale" style="text-decoration:none">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/soham-kale-723312240/" style="text-decoration:none">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="upperMid">
+        <div class="px-4 py-5 my-5 text-center">
+            <h5>Hey, I am Soham Kale</h5>
+            <h1 class="display-5 fw-bold text-body-emphasis">I am <span>Computer Science Engineer</span></h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">"Innovative Computer Science Engineer Enabling Technological Advancements through Creative Solutions and Strategic Programming."</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button id="newBtn" class="newButton" onclick="addBtn()">Download my resume!</button>
+                </div>
+                <br><div id="finalBtn"></div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="skills">
+        <div class="container px-4 py-5 row col-md-15" id="featured-3" style="margin-left: 40px;">
+            <h6>My Skills</h6>
+            <h2 class="pb-2 ">My Experties</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/html-1.svg" alt="html" height="50px">
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">HTML,CSS</h3>
+                    <p>Skilled in crafting responsive and visually appealing web interfaces using HTML and CSS. Proficient in designing and
+                    implementing modern, user-friendly layouts for seamless online experiences.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; margin-left: 133px; margin-right: 133px; border-radius: 10px; padding-top: 20px;" >
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/javascript-1.svg" alt="javaScript" height="50px">
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">JAVASCRIPT</h3>
+                    <p>Proficient in JavaScript to create dynamic and interactive web applications, adept at implementing client-side scripting
+                        for enhanced user experiences.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/bootstrap-4.svg" alt="bootStrap" height="50px">
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">BOOTSTRAP</h3>
+                    <p>Skilled in leveraging Bootstrap for efficient and responsive web design, ensuring visually appealing and user-friendly
+                        interfaces.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/react-2.svg" height="50px" width="50px"></img>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">REACT</h3>
+                    <p>Experienced in React for building scalable and efficient user interfaces, proficient in developing dynamic web
+                        applications with a focus on component-based architecture.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; margin-left: 133px; margin-right: 133px; border-radius: 10px; padding-top: 20px;">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/node1.png" alt="bootStrap" height="50px">
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Node.js</h3>
+                    <p>It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as
+                    traditional web sites and back-end API services.</p>
+                </div>
+                <div class="feature col" style="background-color: #F5FCFF; border-radius: 10px; padding-top: 20px;">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg class="bi" width="0.3em" height="0.7em">
+                            <img src="./assets/SVG/mongo1.png" alt="bootStrap" height="50px" >
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">MongoDB</h3>
+                    <p>MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing
+                    scalable applications with evolving data schemas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+
+        <div class="image">
+            <img src="./assets/image/soham5-removebg-preview.jpg" alt="soham" style="margin-left: 25px;">
+        </div>
+
+        <div class="info">
+            <h6>About</h6>
+            <h2>About Me</h2>
+            <p>Passionate Computer Science Engineer with a flair for creative problem-solving and a commitment to excellence.
+            Proficient in multiple programming languages. Enthusiastic about staying updated with the latest industry trends and
+            implementing innovative solutions. Adept at collaborating in dynamic team environments and effectively communicating
+            complex technical concepts. Eager learner with a strong foundation in software engineering principles. Dedicated to
+            contributing impactful solutions to advance technology and improve user experiences.</p>
+        </div>
+
+    </div>
+
+    <div class="course">
+        <h6>My Courses</h6>
+        <h1>Courses</h1>
+        <img src="./assets/image/Screenshot.png" alt="image" style="margin-top: 30px;">
+    </div>
+
+    <div class="education">
+        <h6>My Education</h6>
+        <h2>Education</h2>
+
+        <div class="info1">
+            <h5>Yashwant Vidhyalaya,Bhose(k)</h5>
+            <h6>SSC</h6>
+            <h6>2018-19</h6>
+        </div>
+        <div class="info1">
+            <h5>Yashwant Junior College, Bhose(k)</h5>
+            <h6>HSC</h6>
+            <h6>2020-21</h6>
+        </div>
+        <div class="info1">
+            <h5>Brahmdevdada Mane Institute Of Technology, Solapur.</h5>
+            <h6>B.Tech</h6>
+            <h6>2021-2025</h6>
+        </div>
+    </div>
+
+    <div class="form">
+        <h6>Get In Touch</h6>
+        <h2 class="mt-2 mb-4">Contact me</h2>
+        <div class="mb-5">
+            <div class="row">             
+                <div class="form-group col-md-4 mb-3" style="margin-left: 220px;">
+                    <label for="f_name">First Name</label>
+                    <input type="text" name="f_name" class="form-control" id="f_name" placeholder="Enter First Name">
+                </div>
+                <div class="form-group col-md-4 mb-3">
+                    <label for="l_name">Last Name</label>
+                    <input type="text" name="l_name" class="form-control" id="l_name" placeholder="Enter Last Name">
+                </div>
+                <div style="height: 10px;"></div>
+                <div class="form-group col-md-4 mb-3" style="margin-left: 220px;">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group col-md-4 mb-3">
+                    <label for="number">Phone Number</label>
+                    <input type="text" name="number" class="form-control" id="number" placeholder="Enter Phone Number">
+                </div>
+                <div class="mb-3">
+                    <div class="edit">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your message..." rows="4"
+                                cols="5"></textarea>
+                        </div>
+                    </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary" id="submit" onclick="dataSubmit()">Submit</button> <br><br>
+                    <div id="response"></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
